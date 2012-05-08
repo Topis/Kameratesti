@@ -1,0 +1,458 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CBEEA370155973CC00F75BF1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBEEA36F155973CC00F75BF1 /* UIKit.framework */; };
+		CBEEA372155973CC00F75BF1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBEEA371155973CC00F75BF1 /* Foundation.framework */; };
+		CBEEA374155973CC00F75BF1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBEEA373155973CC00F75BF1 /* CoreGraphics.framework */; };
+		CBEEA37A155973CC00F75BF1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CBEEA378155973CC00F75BF1 /* InfoPlist.strings */; };
+		CBEEA37C155973CC00F75BF1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CBEEA37B155973CC00F75BF1 /* main.m */; };
+		CBEEA380155973CC00F75BF1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CBEEA37F155973CC00F75BF1 /* AppDelegate.m */; };
+		CBEEA383155973CC00F75BF1 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBEEA381155973CC00F75BF1 /* MainStoryboard_iPhone.storyboard */; };
+		CBEEA386155973CC00F75BF1 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBEEA384155973CC00F75BF1 /* MainStoryboard_iPad.storyboard */; };
+		CBEEA389155973CC00F75BF1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBEEA388155973CC00F75BF1 /* ViewController.m */; };
+		CBEEA391155973CD00F75BF1 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBEEA390155973CD00F75BF1 /* SenTestingKit.framework */; };
+		CBEEA392155973CD00F75BF1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBEEA36F155973CC00F75BF1 /* UIKit.framework */; };
+		CBEEA393155973CD00F75BF1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBEEA371155973CC00F75BF1 /* Foundation.framework */; };
+		CBEEA39B155973CD00F75BF1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CBEEA399155973CD00F75BF1 /* InfoPlist.strings */; };
+		CBEEA39E155973CD00F75BF1 /* KameratestiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CBEEA39D155973CD00F75BF1 /* KameratestiTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CBEEA394155973CD00F75BF1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CBEEA362155973CC00F75BF1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CBEEA36A155973CC00F75BF1;
+			remoteInfo = Kameratesti;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CBEEA36B155973CC00F75BF1 /* Kameratesti.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kameratesti.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBEEA36F155973CC00F75BF1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CBEEA371155973CC00F75BF1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CBEEA373155973CC00F75BF1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CBEEA377155973CC00F75BF1 /* Kameratesti-Info.plist */ = {isa = PBXFileReference; path = "Kameratesti-Info.plist"; sourceTree = "<group>"; };
+		CBEEA379155973CC00F75BF1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CBEEA37B155973CC00F75BF1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CBEEA37D155973CC00F75BF1 /* Kameratesti-Prefix.pch */ = {isa = PBXFileReference; path = "Kameratesti-Prefix.pch"; sourceTree = "<group>"; };
+		CBEEA37E155973CC00F75BF1 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		CBEEA37F155973CC00F75BF1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CBEEA382155973CC00F75BF1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		CBEEA385155973CC00F75BF1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		CBEEA387155973CC00F75BF1 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		CBEEA388155973CC00F75BF1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CBEEA38F155973CD00F75BF1 /* KameratestiTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KameratestiTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBEEA390155973CD00F75BF1 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		CBEEA398155973CD00F75BF1 /* KameratestiTests-Info.plist */ = {isa = PBXFileReference; path = "KameratestiTests-Info.plist"; sourceTree = "<group>"; };
+		CBEEA39A155973CD00F75BF1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CBEEA39C155973CD00F75BF1 /* KameratestiTests.h */ = {isa = PBXFileReference; path = KameratestiTests.h; sourceTree = "<group>"; };
+		CBEEA39D155973CD00F75BF1 /* KameratestiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KameratestiTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CBEEA368155973CC00F75BF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBEEA370155973CC00F75BF1 /* UIKit.framework in Frameworks */,
+				CBEEA372155973CC00F75BF1 /* Foundation.framework in Frameworks */,
+				CBEEA374155973CC00F75BF1 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBEEA38B155973CD00F75BF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBEEA391155973CD00F75BF1 /* SenTestingKit.framework in Frameworks */,
+				CBEEA392155973CD00F75BF1 /* UIKit.framework in Frameworks */,
+				CBEEA393155973CD00F75BF1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CBEEA360155973CC00F75BF1 = {
+			isa = PBXGroup;
+			children = (
+				CBEEA375155973CC00F75BF1 /* Kameratesti */,
+				CBEEA396155973CD00F75BF1 /* KameratestiTests */,
+				CBEEA36E155973CC00F75BF1 /* Frameworks */,
+				CBEEA36C155973CC00F75BF1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CBEEA36C155973CC00F75BF1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CBEEA36B155973CC00F75BF1 /* Kameratesti.app */,
+				CBEEA38F155973CD00F75BF1 /* KameratestiTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CBEEA36E155973CC00F75BF1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CBEEA36F155973CC00F75BF1 /* UIKit.framework */,
+				CBEEA371155973CC00F75BF1 /* Foundation.framework */,
+				CBEEA373155973CC00F75BF1 /* CoreGraphics.framework */,
+				CBEEA390155973CD00F75BF1 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CBEEA375155973CC00F75BF1 /* Kameratesti */ = {
+			isa = PBXGroup;
+			children = (
+				CBEEA37E155973CC00F75BF1 /* AppDelegate.h */,
+				CBEEA37F155973CC00F75BF1 /* AppDelegate.m */,
+				CBEEA381155973CC00F75BF1 /* MainStoryboard_iPhone.storyboard */,
+				CBEEA384155973CC00F75BF1 /* MainStoryboard_iPad.storyboard */,
+				CBEEA387155973CC00F75BF1 /* ViewController.h */,
+				CBEEA388155973CC00F75BF1 /* ViewController.m */,
+				CBEEA376155973CC00F75BF1 /* Supporting Files */,
+			);
+			path = Kameratesti;
+			sourceTree = "<group>";
+		};
+		CBEEA376155973CC00F75BF1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CBEEA377155973CC00F75BF1 /* Kameratesti-Info.plist */,
+				CBEEA378155973CC00F75BF1 /* InfoPlist.strings */,
+				CBEEA37B155973CC00F75BF1 /* main.m */,
+				CBEEA37D155973CC00F75BF1 /* Kameratesti-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CBEEA396155973CD00F75BF1 /* KameratestiTests */ = {
+			isa = PBXGroup;
+			children = (
+				CBEEA39C155973CD00F75BF1 /* KameratestiTests.h */,
+				CBEEA39D155973CD00F75BF1 /* KameratestiTests.m */,
+				CBEEA397155973CD00F75BF1 /* Supporting Files */,
+			);
+			path = KameratestiTests;
+			sourceTree = "<group>";
+		};
+		CBEEA397155973CD00F75BF1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CBEEA398155973CD00F75BF1 /* KameratestiTests-Info.plist */,
+				CBEEA399155973CD00F75BF1 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CBEEA36A155973CC00F75BF1 /* Kameratesti */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBEEA3A1155973CD00F75BF1 /* Build configuration list for PBXNativeTarget "Kameratesti" */;
+			buildPhases = (
+				CBEEA367155973CC00F75BF1 /* Sources */,
+				CBEEA368155973CC00F75BF1 /* Frameworks */,
+				CBEEA369155973CC00F75BF1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Kameratesti;
+			productName = Kameratesti;
+			productReference = CBEEA36B155973CC00F75BF1 /* Kameratesti.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CBEEA38E155973CD00F75BF1 /* KameratestiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBEEA3A4155973CD00F75BF1 /* Build configuration list for PBXNativeTarget "KameratestiTests" */;
+			buildPhases = (
+				CBEEA38A155973CD00F75BF1 /* Sources */,
+				CBEEA38B155973CD00F75BF1 /* Frameworks */,
+				CBEEA38C155973CD00F75BF1 /* Resources */,
+				CBEEA38D155973CD00F75BF1 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CBEEA395155973CD00F75BF1 /* PBXTargetDependency */,
+			);
+			name = KameratestiTests;
+			productName = KameratestiTests;
+			productReference = CBEEA38F155973CD00F75BF1 /* KameratestiTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CBEEA362155973CC00F75BF1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = CBEEA365155973CC00F75BF1 /* Build configuration list for PBXProject "Kameratesti" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CBEEA360155973CC00F75BF1;
+			productRefGroup = CBEEA36C155973CC00F75BF1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CBEEA36A155973CC00F75BF1 /* Kameratesti */,
+				CBEEA38E155973CD00F75BF1 /* KameratestiTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CBEEA369155973CC00F75BF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBEEA37A155973CC00F75BF1 /* InfoPlist.strings in Resources */,
+				CBEEA383155973CC00F75BF1 /* MainStoryboard_iPhone.storyboard in Resources */,
+				CBEEA386155973CC00F75BF1 /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBEEA38C155973CD00F75BF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBEEA39B155973CD00F75BF1 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CBEEA38D155973CD00F75BF1 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CBEEA367155973CC00F75BF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBEEA37C155973CC00F75BF1 /* main.m in Sources */,
+				CBEEA380155973CC00F75BF1 /* AppDelegate.m in Sources */,
+				CBEEA389155973CC00F75BF1 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBEEA38A155973CD00F75BF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBEEA39E155973CD00F75BF1 /* KameratestiTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CBEEA395155973CD00F75BF1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CBEEA36A155973CC00F75BF1 /* Kameratesti */;
+			targetProxy = CBEEA394155973CD00F75BF1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CBEEA378155973CC00F75BF1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBEEA379155973CC00F75BF1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CBEEA381155973CC00F75BF1 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBEEA382155973CC00F75BF1 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		CBEEA384155973CC00F75BF1 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBEEA385155973CC00F75BF1 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		CBEEA399155973CD00F75BF1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBEEA39A155973CD00F75BF1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CBEEA39F155973CD00F75BF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CBEEA3A0155973CD00F75BF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CBEEA3A2155973CD00F75BF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Kameratesti/Kameratesti-Prefix.pch";
+				INFOPLIST_FILE = "Kameratesti/Kameratesti-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CBEEA3A3155973CD00F75BF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Kameratesti/Kameratesti-Prefix.pch";
+				INFOPLIST_FILE = "Kameratesti/Kameratesti-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CBEEA3A5155973CD00F75BF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Kameratesti.app/Kameratesti";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Kameratesti/Kameratesti-Prefix.pch";
+				INFOPLIST_FILE = "KameratestiTests/KameratestiTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		CBEEA3A6155973CD00F75BF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Kameratesti.app/Kameratesti";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Kameratesti/Kameratesti-Prefix.pch";
+				INFOPLIST_FILE = "KameratestiTests/KameratestiTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CBEEA365155973CC00F75BF1 /* Build configuration list for PBXProject "Kameratesti" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBEEA39F155973CD00F75BF1 /* Debug */,
+				CBEEA3A0155973CD00F75BF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBEEA3A1155973CD00F75BF1 /* Build configuration list for PBXNativeTarget "Kameratesti" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBEEA3A2155973CD00F75BF1 /* Debug */,
+				CBEEA3A3155973CD00F75BF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CBEEA3A4155973CD00F75BF1 /* Build configuration list for PBXNativeTarget "KameratestiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBEEA3A5155973CD00F75BF1 /* Debug */,
+				CBEEA3A6155973CD00F75BF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CBEEA362155973CC00F75BF1 /* Project object */;
+}
