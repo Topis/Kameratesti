@@ -6,7 +6,9 @@
 //  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
 //
 
+#import <AVFoundation/AVFoundation.h>
 #import "ViewController.h"
+
 
 @implementation ViewController
 
@@ -21,7 +23,23 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    
+    AVCaptureSession *captureSession = [[AVCaptureSession alloc] init];
+    AVCaptureDevice *captureDevice = [AVCaptureDevice defaultDeviceWithMediaType:AVMediaTypeVideo];
+    NSError *error = nil;    
+    AVCaptureDeviceInput *captureInput = [AVCaptureDeviceInput deviceInputWithDevice:captureDevice error:&error];
+    [captureSession addInput:captureInput];
+    
+    AVCaptureVideoPreviewLayer *captureVideoPreviewLayer = [[AVCaptureVideoPreviewLayer alloc] initWithSession:captureSession];
+    [captureVideoPreviewLayer setVideoGravity:AVLayerVideoGravityResizeAspectFill];
+    CALayer *viewLayer = [self.view layer];
+    CGRect layerRect = [viewLayer bounds];    
+    [captureVideoPreviewLayer setBounds:layerRect];
+    [captureVideoPreviewLayer setPosition:CGPointMake(CGRectGetMidX(layerRect),
+                                                      CGRectGetMidY(layerRect))];
+    [viewLayer addSublayer:captureVideoPreviewLayer];
+
+    [captureSession startRunning];
 }
 
 - (void)viewDidUnload
@@ -54,11 +72,13 @@
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
     // Return YES for supported orientations
-    if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone) {
+/*    if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone) {
         return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
     } else {
         return YES;
     }
+*/
+    return NO;
 }
 
 @end

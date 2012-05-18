@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CB4371DF1566E2CE00FE009C /* Testifile.txt in Resources */ = {isa = PBXBuildFile; fileRef = CB4371DE1566E2CE00FE009C /* Testifile.txt */; };
 		CBEEA370155973CC00F75BF1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBEEA36F155973CC00F75BF1 /* UIKit.framework */; };
 		CBEEA372155973CC00F75BF1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBEEA371155973CC00F75BF1 /* Foundation.framework */; };
 		CBEEA374155973CC00F75BF1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBEEA373155973CC00F75BF1 /* CoreGraphics.framework */; };
@@ -21,6 +22,7 @@
 		CBEEA393155973CD00F75BF1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBEEA371155973CC00F75BF1 /* Foundation.framework */; };
 		CBEEA39B155973CD00F75BF1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CBEEA399155973CD00F75BF1 /* InfoPlist.strings */; };
 		CBEEA39E155973CD00F75BF1 /* KameratestiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CBEEA39D155973CD00F75BF1 /* KameratestiTests.m */; };
+		CBEEA3A81559898000F75BF1 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBEEA3A71559898000F75BF1 /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,26 +36,28 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CB4371DE1566E2CE00FE009C /* Testifile.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Testifile.txt; sourceTree = "<group>"; };
 		CBEEA36B155973CC00F75BF1 /* Kameratesti.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kameratesti.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBEEA36F155973CC00F75BF1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		CBEEA371155973CC00F75BF1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CBEEA373155973CC00F75BF1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		CBEEA377155973CC00F75BF1 /* Kameratesti-Info.plist */ = {isa = PBXFileReference; path = "Kameratesti-Info.plist"; sourceTree = "<group>"; };
+		CBEEA377155973CC00F75BF1 /* Kameratesti-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Kameratesti-Info.plist"; sourceTree = "<group>"; };
 		CBEEA379155973CC00F75BF1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CBEEA37B155973CC00F75BF1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		CBEEA37D155973CC00F75BF1 /* Kameratesti-Prefix.pch */ = {isa = PBXFileReference; path = "Kameratesti-Prefix.pch"; sourceTree = "<group>"; };
-		CBEEA37E155973CC00F75BF1 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		CBEEA37D155973CC00F75BF1 /* Kameratesti-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Kameratesti-Prefix.pch"; sourceTree = "<group>"; };
+		CBEEA37E155973CC00F75BF1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CBEEA37F155973CC00F75BF1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		CBEEA382155973CC00F75BF1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		CBEEA385155973CC00F75BF1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		CBEEA387155973CC00F75BF1 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		CBEEA387155973CC00F75BF1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		CBEEA388155973CC00F75BF1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		CBEEA38F155973CD00F75BF1 /* KameratestiTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KameratestiTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBEEA390155973CD00F75BF1 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		CBEEA398155973CD00F75BF1 /* KameratestiTests-Info.plist */ = {isa = PBXFileReference; path = "KameratestiTests-Info.plist"; sourceTree = "<group>"; };
+		CBEEA398155973CD00F75BF1 /* KameratestiTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KameratestiTests-Info.plist"; sourceTree = "<group>"; };
 		CBEEA39A155973CD00F75BF1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		CBEEA39C155973CD00F75BF1 /* KameratestiTests.h */ = {isa = PBXFileReference; path = KameratestiTests.h; sourceTree = "<group>"; };
+		CBEEA39C155973CD00F75BF1 /* KameratestiTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KameratestiTests.h; sourceTree = "<group>"; };
 		CBEEA39D155973CD00F75BF1 /* KameratestiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KameratestiTests.m; sourceTree = "<group>"; };
+		CBEEA3A71559898000F75BF1 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBEEA3A81559898000F75BF1 /* AVFoundation.framework in Frameworks */,
 				CBEEA370155973CC00F75BF1 /* UIKit.framework in Frameworks */,
 				CBEEA372155973CC00F75BF1 /* Foundation.framework in Frameworks */,
 				CBEEA374155973CC00F75BF1 /* CoreGraphics.framework in Frameworks */,
@@ -102,6 +107,7 @@
 		CBEEA36E155973CC00F75BF1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CBEEA3A71559898000F75BF1 /* AVFoundation.framework */,
 				CBEEA36F155973CC00F75BF1 /* UIKit.framework */,
 				CBEEA371155973CC00F75BF1 /* Foundation.framework */,
 				CBEEA373155973CC00F75BF1 /* CoreGraphics.framework */,
@@ -120,6 +126,7 @@
 				CBEEA387155973CC00F75BF1 /* ViewController.h */,
 				CBEEA388155973CC00F75BF1 /* ViewController.m */,
 				CBEEA376155973CC00F75BF1 /* Supporting Files */,
+				CB4371DE1566E2CE00FE009C /* Testifile.txt */,
 			);
 			path = Kameratesti;
 			sourceTree = "<group>";
@@ -164,6 +171,7 @@
 				CBEEA367155973CC00F75BF1 /* Sources */,
 				CBEEA368155973CC00F75BF1 /* Frameworks */,
 				CBEEA369155973CC00F75BF1 /* Resources */,
+				CBDB40B61559A33500070398 /* Run Script */,
 			);
 			buildRules = (
 			);
@@ -227,6 +235,7 @@
 				CBEEA37A155973CC00F75BF1 /* InfoPlist.strings in Resources */,
 				CBEEA383155973CC00F75BF1 /* MainStoryboard_iPhone.storyboard in Resources */,
 				CBEEA386155973CC00F75BF1 /* MainStoryboard_iPad.storyboard in Resources */,
+				CB4371DF1566E2CE00FE009C /* Testifile.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,6 +250,20 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		CBDB40B61559A33500070398 /* Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export CODESIGN_ALLOCATE=/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate\nif [ \"${PLATFORM_NAME}\" == \"iphoneos\" ]; then\n/Developer/iphoneentitlements401/gen_entitlements.py \"my.company.${PROJECT_NAME}\" \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/${PROJECT_NAME}.xcent\";\ncodesign -f -s \"iPhone Developer\" --entitlements \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/${PROJECT_NAME}.xcent\" \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/\"\nfi";
+		};
 		CBEEA38D155973CD00F75BF1 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -371,10 +394,12 @@
 		CBEEA3A2155973CD00F75BF1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Kameratesti/Kameratesti-Prefix.pch";
 				INFOPLIST_FILE = "Kameratesti/Kameratesti-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos5.0;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -382,10 +407,12 @@
 		CBEEA3A3155973CD00F75BF1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Kameratesti/Kameratesti-Prefix.pch";
 				INFOPLIST_FILE = "Kameratesti/Kameratesti-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos5.0;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -402,6 +429,7 @@
 				GCC_PREFIX_HEADER = "Kameratesti/Kameratesti-Prefix.pch";
 				INFOPLIST_FILE = "KameratestiTests/KameratestiTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos5.0;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = octest;
 			};
@@ -419,6 +447,7 @@
 				GCC_PREFIX_HEADER = "Kameratesti/Kameratesti-Prefix.pch";
 				INFOPLIST_FILE = "KameratestiTests/KameratestiTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos5.0;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = octest;
 			};
@@ -443,6 +472,7 @@
 				CBEEA3A3155973CD00F75BF1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CBEEA3A4155973CD00F75BF1 /* Build configuration list for PBXNativeTarget "KameratestiTests" */ = {
 			isa = XCConfigurationList;
@@ -451,6 +481,7 @@
 				CBEEA3A6155973CD00F75BF1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
